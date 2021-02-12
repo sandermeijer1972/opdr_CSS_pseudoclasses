@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.eerste a:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.tweede a:active {
+    color: red;
+    font-style: italic;
+}
+
+.derde a:visited {
+    color: yellow;
+}
+
+.vul-in input:focus {
+    color: green;
+    font-size: 20px;
+}
+
+nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    margin: 0px;
+    padding: 10px 40px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000099;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: white;
+}
+
+.current-page {
+    background-color: #0000FF;
+}
+
+li:not(.zoek):hover {
+    background-color: #6666FF;
+}
+
+.zoek input:focus {
+    border: solid 4px red;
+}
